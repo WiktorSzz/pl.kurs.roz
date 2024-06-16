@@ -10,7 +10,7 @@ public class EquationValidatorTest {
     private EquationValidator equationValidator;
 
     @BeforeEach
-    public void setUp() {
+    public void init() {
         equationValidator = new EquationValidator();
     }
 
